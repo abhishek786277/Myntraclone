@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    /* overflow: hidden; */
+}
+
+
+body {
+    background-color: rgb(250, 250, 250);
+}
+
+.myntralogo {
+    height: 500px;
+    width: 100px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: roboto;
+    background-color: white;
+    height: 80px;
+}
+
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    word-spacing: 2%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#searchbar {
+    height: 20px;
+    width: 304px
+}
+
+li:hover {
+    border-bottom: 4px solid #ee5f73;
+    margin-bottom: -11px;
+}
+
+
+
+section img {
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.mainall{
+    /* when we change the zoom size image is not responsive so to make the image responsive add a div with position relative */
+    position: relative;
+}
+
+.main img {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 50%;
+
+}
+
+.main1 img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    height: auto;
+    width: 50%;
+
+}
+
+.flat100off img {
+    width: 50%;
+    height: auto;
+    position: relative;
+}
+
+.flat200off img {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 485px;
+    left: 540px;
+    right: 0;
+    bottom: 0;
+
+}
+
+
+.firstimage {
+    display: flex;
+    justify-content: center;
+}
+
+.firstimage img {
+    height: 157px;
+    width: 120px;
+}
+
+.secondimage {
+    display: flex;
+    justify-content: center;
+}
+
+.secondimage img {
+    height: 157px;
+    width: 120px;
+}
+
+.thirdimage img {
+    height: 200px;
+    width: 173px;
+}
+
+
+.footerclass{
+    margin-top: 40px;
+}
+
+.footerclass p {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 32px 0 12px 0;
+}
+
+.footerclass a {
+    display: block;
+}
+
+
+
+.footerclass div{
+    display: block;
+    float: inline-start;
+    background-color: transparent;
+    margin-right: 48px;
+    margin-left: 39px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.footerclass span{
+    display: inline-block;
+}
+
+.double div{
+    display: contents;
+    
+}
+
+.m10{
+    margin: 14px;
+}
